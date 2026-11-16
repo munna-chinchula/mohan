@@ -1,0 +1,11 @@
+.parent-question{white-space:nowrap}
+.parent-perspective{width:912px;gap:48px}
+.parent-perspective .section-copy{width:837px}
+.parent-journey{width:900px;height:300px;object-fit:cover}
+@media(max-width:760px){.parent-question{white-space:normal}
+}
+@media(max-width:760px){.parent-journey{width:100%;height:auto}
+}
+
+.chapter-parent-perspective{height:900px}.chapter-parent-perspective .chapter-content{top:90.06640625px}
+.chapter-parent-perspective .chapter-paper:before{background-position:0 -4389px}
