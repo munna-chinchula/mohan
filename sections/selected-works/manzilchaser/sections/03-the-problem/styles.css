@@ -1,0 +1,13 @@
+.problem{width:962px;gap:48px}
+.problem .section-label,.focus .section-label,.parent-perspective .section-label,.product-decision .section-label,.design-evolution .section-label,.outcome .section-label,.reflection .section-label{margin-bottom:4px}
+.problem-sketch{width:930px;height:587px}
+.problem-sketch img{height:119.02%;width:100%;left:.07%;top:-11.41%}
+@media(max-width:760px){.study-section,.study-section .section-copy,.problem,.discovery,.focus,.parent-perspective,.product-decision,.design-evolution,.outcome,.competitor-grid,.team-choice,.difference,.selected-design{width:100%}
+}
+@media(max-width:760px){.problem-sketch{aspect-ratio:930/587}
+}
+
+.chapter-problem{height:900px}.chapter-problem .chapter-content{top:45px}
+
+.problem{gap:30px}.problem-sketch{width:870px;height:549.129px}@media(max-width:760px){.problem-sketch{width:100%;height:auto;aspect-ratio:870/549.129}}
+.chapter-problem .chapter-paper:before{background-position:0 -1300px}
