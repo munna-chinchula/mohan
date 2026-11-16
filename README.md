@@ -18,6 +18,8 @@ Each folder contains `index.html`, `styles.css`, and `assets/`. The life section
 
 `page.html` defines section order and page metadata. `styles/shared.css` contains shared typography and layout foundations. Root `script.js` handles navigation, smooth scrolling and pending link messages.
 
+The ManzilChaser case study lives in `case-studies/manzilchaser/`. Its `page.html` contains the editable narrative and its own README explains the exploration artwork and images. Run the build after editing it.
+
 ## Build and publish
 
 Run `npm run build` (or `node build.mjs`). This combines the sections into the root `index.html` and creates a static copy in `dist/`. Edit the section files, then build before committing. The generated root page can also be served directly by GitHub Pages; all asset URLs are relative.
