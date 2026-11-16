@@ -1,0 +1,12 @@
+a:focus-visible{outline:3px solid var(--study-blue);outline-offset:5px}
+.focus{width:912px;gap:48px}
+.focus .section-copy{width:837px}
+.focus-laptop{width:1024px;height:661px}
+.focus-laptop img{height:131.62%;left:-9.13%;top:-20.43%;width:113.28%}
+@media(max-width:760px){.focus-laptop{width:calc(100% + 24px);aspect-ratio:1024/661}
+}
+
+.chapter-focus{height:900px}.chapter-focus .chapter-content{top:51.06640625px}
+
+.focus{gap:20px}
+.chapter-focus .chapter-paper:before{background-position:0 -3459px}
