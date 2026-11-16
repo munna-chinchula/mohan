@@ -1,0 +1,9 @@
+.beginning-sketch{width:700px;height:622px}
+.beginning-sketch img{height:150.05%;width:100%;left:.06%;top:-24.44%}
+@media(max-width:760px){.beginning-sketch{aspect-ratio:700/622}
+}
+
+.chapter-beginning{height:900px}.chapter-beginning .chapter-content{top:42px}
+
+.beginning-sketch{width:640px;height:569px}@media(max-width:760px){.beginning-sketch{width:100%;height:auto;aspect-ratio:640/569}}
+.chapter-beginning .chapter-paper:before{background-position:0 -340px}
