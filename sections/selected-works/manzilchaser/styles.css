@@ -1,0 +1,50 @@
+:root{--study-orange:#fe9c1f;--study-ink:#0f1115;--study-muted:#50576b;--study-blue:#00468a;--study-note:#fff0dd}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--study-orange);color:var(--study-ink);font-family:Figtree,sans-serif;font-size:23px;font-weight:500;line-height:28px;font-synthesis:none}
+.study-document{width:1440px;zoom:var(--study-scale,1);padding-bottom:161px}
+p,h1,h2,h3,figure,dl,dd{margin:0}
+h1,h2,h3{font-size:inherit;font-weight:inherit}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.study-paper{position:relative;isolation:isolate;margin:0 108px;width:1224px;padding:181px 113px 189.74px;background:white;border-radius:80px;overflow:hidden}
+.study-paper:before{content:'';position:absolute;inset:0;z-index:-1;background:url('assets/grid.png') repeat;opacity:.1}
+.study-content{width:998.447px;display:flex;flex-direction:column;align-items:center;gap:100px;text-align:center}
+.study-section{display:flex;flex-direction:column;align-items:center;gap:40px;width:100%}
+.section-copy{display:flex;flex-direction:column;align-items:center;gap:20px;width:100%}
+.section-label{display:inline-block;background:var(--study-blue);color:white;padding:10px;border-radius:8px;font-size:23px;font-weight:600;line-height:28px}
+.study-section p{color:var(--study-muted)}
+.study-note{display:block;padding:14px 16px;border-radius:16px;background:var(--study-note);color:#280904!important}
+.study-crop{position:relative;overflow:hidden;flex-shrink:0}
+.study-crop img{position:absolute;max-width:none}
+.study-section .handwritten{font-family:Schoolbell,cursive;font-size:33px;font-weight:400;line-height:40px;color:#280904}
+@media(max-width:760px){body{font-size:16px;line-height:24px}
+}
+@media(max-width:760px){.study-document{width:100%;zoom:1;padding-bottom:50px}
+}
+@media(max-width:760px){.study-paper{margin:0 12px;width:calc(100% - 24px);padding:80px 20px 45px;border-radius:28px}
+}
+@media(max-width:760px){.study-content{width:100%;gap:64px}
+}
+@media(max-width:760px){.study-section{gap:28px}
+}
+@media(max-width:760px){.section-copy{gap:16px}
+}
+@media(max-width:760px){.section-label{padding:8px 10px;font-size:17px;line-height:24px}
+}
+@media(max-width:760px){.study-section br{display:none}
+}
+@media(max-width:760px){.study-note{padding:12px;border-radius:12px}
+}
+@media(max-width:760px){.study-crop{width:100%;height:auto}
+}
+@media(max-width:760px){.study-section .handwritten{font-size:28px;line-height:36px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}
+}
+
+/* Each desktop chapter follows its cropped Figma frame. */
+.study-document{padding-bottom:0}.case-chapter{position:relative;width:1440px;overflow:hidden}.chapter-paper{position:absolute;left:108px;top:0;width:1224px;height:100%;background:#fff;isolation:isolate}.chapter-paper:before{content:"";position:absolute;inset:0;z-index:-1;background:url("assets/grid.png") repeat;opacity:.1}.chapter-content{position:absolute;left:50%;transform:translateX(-50%);width:998.447px;display:flex;flex-direction:column;align-items:center;gap:100px;text-align:center}.study-section{flex-shrink:0}
+@media(max-width:760px){.case-chapter{width:100%;height:auto!important;overflow:hidden}.chapter-paper{position:relative;left:auto;top:auto;margin:0 12px;width:calc(100% - 24px);height:auto;padding:40px 20px}.chapter-content{position:relative;left:auto;top:auto!important;transform:none;width:100%;gap:64px}.study-document{padding-bottom:0}}
+.chapter-paper{overflow:hidden}.hero-summary{text-align:center}@media(min-width:761px){.study-nav nav{gap:24px;margin-right:27px}.study-nav nav a{padding:6px 0}.study-nav nav a:nth-child(1){width:36.43px}.study-nav nav a:nth-child(2){width:41.58px}.study-nav nav a:nth-child(3){width:53.61px}}
+html{overflow-x:clip}

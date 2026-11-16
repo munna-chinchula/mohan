@@ -1,8 +1,9 @@
 import fs from 'node:fs';
 import {renderPage} from './render-page.mjs';
+import {renderStudy} from './sections/selected-works/manzilchaser/render.mjs';
 const html=renderPage();
-const study=fs.readFileSync('case-studies/manzilchaser/page.html','utf8').replace('{{exploration}}',fs.readFileSync('case-studies/manzilchaser/exploration.html','utf8'));
-fs.writeFileSync('case-studies/manzilchaser/index.html',study);
+const study=renderStudy();
+fs.writeFileSync('sections/selected-works/manzilchaser/index.html',study);
 fs.writeFileSync('index.html',html);
 fs.mkdirSync('dist',{recursive:true});
 fs.writeFileSync('dist/index.html',html);

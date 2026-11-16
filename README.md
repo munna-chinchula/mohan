@@ -1,31 +1,33 @@
 # Mohan Rao Portfolio
 
-## Run locally
+## Preview and build
 
-Run `npm run dev` (or `node server.mjs`), then open http://localhost:5173. Refresh after editing a section to see changes.
+Run `npm run dev` or `node server.mjs`, then open http://localhost:5173. Refresh after editing a section to see the change.
 
-## Where to edit
+Run `npm run build` or `node build.mjs` to regenerate the pages and `dist/` before sharing or publishing. No package installation is required. Do not edit generated `index.html` pages directly.
 
-| Section | Folder |
-| --- | --- |
-| Hero and navigation | `sections/hero/` |
-| Selected works | `sections/selected-works/` |
-| Journey | `sections/journey/` |
-| Life Beyond the Screen | `sections/life-beyond-screen/` |
-| Footer | `sections/footer/` |
+## Folder guide
 
-Each folder contains `index.html`, `styles.css`, and `assets/`. The life section also has `script.js` for the continuous photo animation. Its animation speed is in its stylesheet. Hero navigation is in `sections/hero/navigation.html`.
+- `sections/hero/`: homepage hero and navigation.
+- `sections/selected-works/`: work section layout and project order.
+- `sections/selected-works/manzilchaser/`: ManzilChaser card and full case study.
+- `sections/selected-works/vasthra-shree/`: Vasthra Shree card.
+- `sections/selected-works/academic-app/`: Academic App card.
+- `sections/selected-works/parkease/`: ParkEase card.
+- `sections/journey/`: experience timeline.
+- `sections/life-beyond-screen/`: looping photo gallery.
+- `sections/footer/`: contact footer.
 
-`page.html` defines section order and page metadata. `styles/shared.css` contains shared typography and layout foundations. Root `script.js` handles navigation, smooth scrolling and pending link messages.
+Each project has `card.html`, `card.css`, and `assets/` for its homepage card. The ManzilChaser folder also has ten case-study section folders. Read its `EDITING.md` for the full editing workflow.
 
-The ManzilChaser case study lives in `case-studies/manzilchaser/`. Its `page.html` contains the editable narrative and its own README explains the exploration artwork and images. Run the build after editing it.
+`page.html` defines the homepage shell. `styles/shared.css` contains shared homepage styles. `render-page.mjs` combines homepage fragments; `build.mjs` generates the static output.
 
-## Build and publish
+The previous `/case-studies/manzilchaser/` URL redirects to the organized project page.
 
-Run `npm run build` (or `node build.mjs`). This combines the sections into the root `index.html` and creates a static copy in `dist/`. Edit the section files, then build before committing. The generated root page can also be served directly by GitHub Pages; all asset URLs are relative.
+Fonts load from Fontshare and Google Fonts; Lenis loads from jsDelivr. Native scrolling remains available if Lenis cannot load. The photo loop pauses on hover or keyboard focus and respects reduced motion.
 
-No package installation is required. Node.js is required for the preview and build commands. Fonts load from Fontshare and Google Fonts; Lenis loads from jsDelivr. Native scrolling remains available if Lenis cannot load. The photo loop pauses on hover or keyboard focus and respects reduced motion.
+## Pending content
 
-## Pending links
+Email, resume, social URLs, and the three other project case studies still need your content. Their unconfigured actions display a pending-link message.
 
-Email, resume, LinkedIn, Medium, Instagram and case-study destinations still need your URLs. Their buttons currently display a pending-link message.
+Read `HANDOFF.md` to continue in another chat or account.
