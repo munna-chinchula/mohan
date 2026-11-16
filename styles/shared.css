@@ -1,0 +1,115 @@
+:root{--font-primary:'Clash Display',sans-serif;--font-heading:'Figtree',sans-serif;--text-primary:#0f1115;--text-secondary:#50576b;--text-muted:#6c7179;--surface:#fff;--border:rgba(0,0,0,.08);--available:#00c047;--body-size:16px;--body-leading:24px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--surface);color:var(--text-primary);font-family:var(--font-primary);font-weight:500}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:2px solid #005aff;outline-offset:5px}
+.button{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:13px;border:1px solid var(--border);background:white;border-radius:4px;color:var(--text-primary);font-size:16px;line-height:24px}
+.primary{background:#111;color:white}
+.button:hover{opacity:.8}
+dialog{border:1px solid var(--border);border-radius:12px;max-width:360px;padding:24px}
+dialog::backdrop{background:#0005}
+dialog p{line-height:1.5}
+@media(min-width:1600px){:root{--body-size:clamp(16px,1.11111vw,22px);--body-leading:1.5}
+}
+.design-section{position:relative;overflow:hidden;width:100%;height:calc(var(--canvas-height)*var(--design-scale,1)*1px);scroll-margin-top:24px}
+.figma-canvas{position:relative;width:1440px;transform:scale(var(--design-scale,1));transform-origin:top left}
+.figma-canvas [role=button]{cursor:pointer}
+.figma-canvas [role=button]:focus-visible{outline:3px solid #005aff;outline-offset:5px}
+@media(max-width:760px){.section-footer{min-height:470px}
+}
+@media(max-width:760px){.section-footer .figma-canvas{transform:scale(var(--design-scale));transform-origin:bottom right;position:absolute;bottom:0;right:0}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8687"]{top:-120px;left:75px;scale:1.65;transform-origin:left top}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8691"]{max-width:590px;text-align:left}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8692"]{max-width:570px;flex-wrap:wrap}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}
+}
+@media(max-width:760px){.section-footer .figma-canvas{width:100%;height:470px!important;transform:none;position:relative}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8687"]{left:24px;top:28px;transform:none;scale:1;gap:20px;width:calc(100% - 48px)}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8690"]{font-size:36px}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8690"] p{line-height:42px}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8691"]{font-size:16px;width:100%;max-width:100%}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8691"] p{line-height:23px}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8692"]{gap:12px 16px;max-width:100%}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8692"] [data-node-id]{font-size:20px}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8686"]{left:auto;right:8px;top:220px;width:175px;height:225px}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-name="image 521"]{width:175px;height:219px}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8708"]{left:20px;top:230px;width:220px;height:110px}
+}
+@media(max-width:760px){.section-footer .figma-canvas [data-node-id="213:8685"]{left:0;top:auto;bottom:0;width:100%;height:125px}
+}
+@media(min-width:761px){.section-footer .figma-canvas [data-node-id="213:8686"]{left:901.74px;top:161.47px;width:388.6px;height:475.8px}
+}
+@media(min-width:761px){.section-footer .figma-canvas [data-name="image 521"]{width:367.25px;height:458.9px}
+}
+.figma-canvas *{--tx:0px;--ty:0px;border-width:0;transform:translate(var(--tx,0),var(--ty,0))}
+.figma-canvas p{margin:0}
+.figma-canvas img{display:block}
+.figma-canvas{font-weight:400;font-size:16px;line-height:normal}
+.figma-canvas .d947{background-color:white;align-content:stretch;display:flex;flex-direction:column;gap:10px;align-items:center;padding:80px;position:relative;width:100%;height:100%}
+.figma-canvas .d948{position:absolute;height:480px;left:0;top:380px;width:1440px}
+.figma-canvas .d949{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.figma-canvas .d950{position:absolute;display:flex;height:670.134px;align-items:center;justify-content:center;left:800.62px;top:66.3px;width:547.319px}
+.figma-canvas .d951{flex:none;rotate:2.72deg}
+.figma-canvas .d952{height:646.332px;position:relative;width:517.25px}
+.figma-canvas .d953{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.figma-canvas .d954{--ty:-50%;position:absolute;backdrop-filter:blur(2px);align-content:stretch;display:flex;flex-direction:column;gap:32px;align-items:flex-start;justify-content:center;left:89px;top:calc(50% + 0.5px)}
+.figma-canvas .d955{align-content:stretch;display:flex;flex-direction:column;gap:12px;align-items:flex-start;justify-content:center;position:relative;flex-shrink:0}
+.figma-canvas .d956{align-content:center;display:flex;flex-wrap:wrap;row-gap:4px;align-items:center;position:relative;flex-shrink:0;width:100%}
+.figma-canvas .d957{display:flex;flex-direction:column;font-family:"Schoolbell";font-weight:400;justify-content:center;line-height:0;font-style:normal;position:relative;flex-shrink:0;font-size:48px;color:#1f1f1f;letter-spacing:0px;white-space:nowrap}
+.figma-canvas .d958{line-height:48px}
+.figma-canvas .d959{display:flex;flex-direction:column;font-family:"Figtree";font-weight:500;justify-content:center;line-height:0;position:relative;flex-shrink:0;color:#50576b;font-size:19px;text-align:center;letter-spacing:0px;width:100%}
+.figma-canvas .d960{line-height:23px}
+.figma-canvas .d961{align-content:stretch;display:flex;gap:20px;align-items:flex-start;position:relative;flex-shrink:0}
+.figma-canvas .d962{align-content:center;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;position:relative;flex-shrink:0}
+.figma-canvas .d963{position:relative;flex-shrink:0;width:28px;height:28px}
+.figma-canvas .d964{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.figma-canvas .d965{display:flex;flex-direction:column;font-family:"Schoolbell";font-weight:400;font-style:normal;justify-content:center;line-height:0;position:relative;flex-shrink:0;color:#50576b;font-size:23px;letter-spacing:0px;white-space:nowrap}
+.figma-canvas .d966{line-height:28px}
+.figma-canvas .d967{align-content:center;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;position:relative;flex-shrink:0}
+.figma-canvas .d968{position:relative;flex-shrink:0;width:28px;height:28px}
+.figma-canvas .d969{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.figma-canvas .d970{display:flex;flex-direction:column;font-family:"Schoolbell";font-weight:400;font-style:normal;justify-content:center;line-height:0;position:relative;flex-shrink:0;color:#50576b;font-size:23px;letter-spacing:0px;white-space:nowrap}
+.figma-canvas .d971{line-height:28px}
+.figma-canvas .d972{align-content:center;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;position:relative;flex-shrink:0}
+.figma-canvas .d973{position:relative;flex-shrink:0;width:28px;height:28px}
+.figma-canvas .d974{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.figma-canvas .d975{display:flex;flex-direction:column;font-family:"Schoolbell";font-weight:400;font-style:normal;justify-content:center;line-height:0;position:relative;flex-shrink:0;color:#50576b;font-size:23px;letter-spacing:0px;white-space:nowrap}
+.figma-canvas .d976{line-height:28px}
+.figma-canvas .d977{align-content:center;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;position:relative;flex-shrink:0}
+.figma-canvas .d978{position:relative;flex-shrink:0;width:24px;height:24px}
+.figma-canvas .d979{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.figma-canvas .d980{display:flex;flex-direction:column;font-family:"Schoolbell";font-weight:400;font-style:normal;justify-content:center;line-height:0;position:relative;flex-shrink:0;color:#50576b;font-size:23px;letter-spacing:0px;white-space:nowrap}
+.figma-canvas .d981{line-height:28px}
+.figma-canvas .d982{align-content:center;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;position:relative;flex-shrink:0}
+.figma-canvas .d983{position:relative;flex-shrink:0;width:28px;height:28px}
+.figma-canvas .d984{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.figma-canvas .d985{display:flex;flex-direction:column;font-family:"Schoolbell";font-weight:400;font-style:normal;justify-content:center;line-height:0;position:relative;flex-shrink:0;color:#50576b;font-size:23px;letter-spacing:0px;white-space:nowrap}
+.figma-canvas .d986{line-height:28px}
+.figma-canvas .d987{position:absolute;height:372px;left:195px;top:53.79px;width:744px}
+.figma-canvas .d988{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.figma-canvas [data-node-id="218:5569"]{font-family:"Schoolbell",sans-serif;font-weight:400;font-synthesis:none}
+.figma-canvas [data-node-id="213:8118"]{font-family:"Manrope",sans-serif;font-weight:400;font-synthesis:none}
+.figma-canvas [data-node-id="213:8690"]{font-family:"Schoolbell",sans-serif;font-weight:400;font-synthesis:none}
+.figma-canvas [data-node-id="213:8691"]{font-family:"Figtree",sans-serif;font-weight:500;font-synthesis:none}
+.figma-canvas [data-node-id="213:8695"]{font-family:"Schoolbell",sans-serif;font-weight:400;font-synthesis:none}
+.figma-canvas [data-node-id="213:8698"]{font-family:"Schoolbell",sans-serif;font-weight:400;font-synthesis:none}
+.figma-canvas [data-node-id="213:8701"]{font-family:"Schoolbell",sans-serif;font-weight:400;font-synthesis:none}
+.figma-canvas [data-node-id="213:8704"]{font-family:"Schoolbell",sans-serif;font-weight:400;font-synthesis:none}
+.figma-canvas [data-node-id="213:8707"]{font-family:"Schoolbell",sans-serif;font-weight:400;font-synthesis:none}
+.figma-canvas .wave-emoji{font-family:"Noto Color Emoji","Segoe UI Emoji",sans-serif;font-weight:400}

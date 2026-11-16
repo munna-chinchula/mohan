@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.qa/
+.design-archive/
+organize.mjs
+/assets/*
+!/assets/shared/

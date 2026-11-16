@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import {renderPage} from './render-page.mjs';
+const html=renderPage();
+fs.writeFileSync('index.html',html);
+fs.mkdirSync('dist',{recursive:true});
+fs.writeFileSync('dist/index.html',html);
+fs.copyFileSync('script.js','dist/script.js');
+for(const folder of ['sections','styles'])fs.cpSync(folder,'dist/'+folder,{recursive:true});
+if(fs.existsSync('assets/shared'))fs.cpSync('assets/shared','dist/assets/shared',{recursive:true});
+console.log('Built portfolio from five section folders into dist/');
