@@ -11,20 +11,13 @@
 .research-findings dl{display:flex;flex-direction:column;gap:20px}
 .research-findings dl>div{display:flex;flex-direction:column;gap:12px}
 .research-findings dd{color:var(--study-muted)}
-@media(max-width:760px){.study-section h3,.challenge,.parent-question{font-size:21px;line-height:28px}
-}
-@media(max-width:760px){.competitor-grid{display:grid;grid-template-columns:1fr;gap:24px}
-}
-@media(max-width:760px){.competitor-grid figure{width:100%;gap:10px}
-}
-@media(max-width:760px){.competitor-grid figcaption{font-size:17px;line-height:24px}
-}
-@media(max-width:760px){.competitor-grid img{width:100%;height:auto;max-width:360px}
-}
-@media(max-width:760px){.research-findings{gap:24px}
-}
-@media(max-width:760px){.research-findings dl{gap:22px}
-}
+
+
+
+
+
+
+
 
 .chapter-discovery{height:1260px}.chapter-discovery .chapter-content{top:58.12890625px}
 .chapter-discovery .chapter-paper:before{background-position:0 -2210px}

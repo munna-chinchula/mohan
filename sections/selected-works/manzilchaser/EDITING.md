@@ -40,3 +40,12 @@ From the portfolio root, run `npm run dev` or `node server.mjs`. Open http://loc
 When ready, run `npm run build` or `node build.mjs`. It regenerates the page and static `dist/` output. This does not push changes to GitHub.
 
 The logo, headline and thank-you artwork preserve custom Figma lettering. Replace their exported images in the relevant section's assets folder if that lettering changes.
+
+## Tablet and mobile layouts
+Responsive source frames: tablet `242:7707` (768px) and mobile `242:8981` (360px).
+- Edit `responsive.css` for tablet/mobile presentation and the menu layout.
+- Edit `responsiveFrames` in `script.js` for measured chapter positions and hero sizing.
+- All text and images remain in their existing numbered section folders.
+- Below 600px the header uses an accessible menu button; 600–1024px uses tablet navigation.
+- The tablet webpage ends after Reflection, omitting the empty orange tail in the Figma frame.
+- Changes in this update are local; push only when requested.
