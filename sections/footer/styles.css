@@ -11,21 +11,3 @@
 .contact-links button:hover{opacity:.75}
 .contact-ocean{position:absolute;left:0;top:calc(257px * var(--footer-scale));width:100%;height:calc(273px * var(--footer-scale));overflow:hidden;pointer-events:none;z-index:0}
 .contact-ocean img{position:absolute;left:0;top:-75.82%;width:100%;height:175.82%;max-width:none}
-@media(max-width:760px){.contact-footer{--footer-scale:1;height:440px}
-}
-@media(max-width:760px){.contact-content{top:48px;width:calc(100% - 40px);gap:26px}
-}
-@media(max-width:760px){.contact-intro{gap:14px}
-}
-@media(max-width:760px){.contact-intro h2{font-size:36px;line-height:42px}
-}
-@media(max-width:760px){.contact-intro p{font-size:16px;line-height:23px}
-}
-@media(max-width:760px){.contact-links{flex-wrap:wrap;gap:16px 20px;max-width:350px}
-}
-@media(max-width:760px){.contact-links button{font-size:22px;line-height:28px}
-}
-@media(max-width:760px){.contact-ocean{top:auto;bottom:-5px;height:190px}
-}
-@media(max-width:760px){.contact-ocean img{object-fit:cover;object-position:center bottom}
-}

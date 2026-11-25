@@ -39,3 +39,7 @@ Open the project, choose the device folder, and edit the text in `card.html` or 
 `sections/journey/`, `sections/life-beyond-screen/`, and `sections/footer/` remain separate.
 
 Temporary videos, animation experiments, local tool environments, and QA screenshots are excluded from the website commit. The current hero uses the Figma MP4, not the older experimental canvas animation.
+
+## Journey, Life Beyond the Screen, and Footer
+
+Each section has shared `index.html`, `styles.css`, and `assets/`. Responsive overrides live in clearly named `laptop/styles.css`, `tablet/styles.css`, and `mobile/styles.css` folders. The photo strip keeps its seamless scrolling behavior and pauses on hover or focus. Footer destinations remain pending until real profile links are supplied.

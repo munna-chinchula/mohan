@@ -22,3 +22,8 @@
 .works-tablet .wt27{align-content:stretch;display:flex;flex-direction:column;align-items:flex-start;position:relative;flex-shrink:0;width:100%}
 .works-tablet .wt28{display:flex;flex-direction:column;font-family:"Figtree";font-weight:600;justify-content:center;line-height:0;position:relative;flex-shrink:0;font-size:16.129px;color:white;letter-spacing:-0.1815px;white-space:nowrap}
 .works-tablet .wt29{line-height:22.177px}
+.works-tablet .wt30{position:absolute;background:#023f86;height:161px;left:522px;overflow:clip;top:184px;width:213px}
+.works-tablet .wt31{position:absolute;height:169px;left:-3px;overflow:clip;top:0;width:208px}
+.works-tablet .wt32{--tx:-50%;--ty:-50%;position:absolute;height:148px;left:calc(50% + 17px);top:calc(50% + 15.5px);width:226px}
+.works-tablet .wt33{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.works-tablet .wt34{position:absolute;height:100%;left:-6.43%;max-width:none;top:0;width:100.35%}

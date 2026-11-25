@@ -18,7 +18,7 @@ Run `npm run build` or `node build.mjs` to regenerate the pages and `dist/` befo
 - `sections/life-beyond-screen/`: looping photo gallery.
 - `sections/footer/`: contact footer.
 
-Each project has `card.html`, `card.css`, and `assets/` for its homepage card. The ManzilChaser folder also has ten case-study section folders. Read its `EDITING.md` for the full editing workflow.
+Each project has separate `laptop/`, `tablet/`, and `mobile/` folders containing `card.html` and `card.css`, with shared artwork in `assets/`. See `sections/selected-works/DESIGN.md` for Figma references and verification steps. The ManzilChaser folder also has ten case-study section folders. Read its `EDITING.md` for the full editing workflow.
 
 `page.html` defines the homepage shell. `styles/shared.css` contains shared homepage styles. `render-page.mjs` combines homepage fragments; `build.mjs` generates the static output.
 
