@@ -5,12 +5,14 @@ const responsiveFrames={
 };
 function resizeStudy(){
  const width=document.documentElement.clientWidth,root=document.documentElement;
+ root.style.setProperty('--site-viewport-width',width+'px');
+ root.style.setProperty('--inverse-study-scale',1440/width);
  if(width>1024){root.style.setProperty('--study-scale',width/1440);document.querySelectorAll('.case-chapter').forEach(c=>c.style.removeProperty('--chapter-height'));return;}
  const f=responsiveFrames[width<600?'mobile':'tablet'],ratio=width/f.width,scale=f.paperWidth*ratio/1224;
  const set=(name,value)=>root.style.setProperty('--'+name,value);
  set('study-scale',scale);set('inverse-study-scale',1/scale);set('responsive-canvas',width/scale+'px');set('paper-left',f.paperLeft*ratio/scale+'px');
  for(const [name,key] of Object.entries({'hero-paper-top':'paperTop','hero-copy-width':'copyWidth','hero-logo-width':'logoWidth','hero-title-width':'titleWidth','hero-subtitle-size':'subtitle'}))set(name,f[key]*ratio/scale+'px');
- set('hero-copy-top',(f.copyTop*ratio-46)/scale+'px');set('hero-laptop-top',(f.laptopTop*ratio-46)/scale+'px');
+ set('hero-copy-top',(f.copyTop*ratio-44)/scale+'px');set('hero-laptop-top',(f.laptopTop*ratio-44)/scale+'px');
  set('summary-top',(f.contentTop-f.paperTop)*ratio/scale+'px');set('reflection-paper-height',(f.paperEnd-f.positions[9])*ratio/scale+'px');set('thanks-height',48*ratio/scale+'px');
  document.querySelectorAll('.case-chapter').forEach((chapter,i)=>chapter.style.setProperty('--chapter-height',((f.positions[i+1]??f.end)-f.positions[i])*ratio/scale+'px'));
 }

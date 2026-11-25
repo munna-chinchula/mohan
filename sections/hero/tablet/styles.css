@@ -1,0 +1,16 @@
+@media(min-width:601px) and (max-width:1100px){
+ .navigation{padding:0 30px;min-height:44px}
+ .navigation .brand{font:600 18px/24px Inter,sans-serif;letter-spacing:-.4px}
+ .navigation nav{gap:16px}
+ .navigation nav a{font:600 16px/22px Inter,sans-serif;letter-spacing:-.18px;padding:10px}
+ .hero{display:block;min-height:max(100svh,81.25vw);padding:0}
+ .hero .hero-art{position:absolute;left:11.42578125%;right:auto;top:20.91346154%;width:89.0625%;height:auto;aspect-ratio:8/5;object-fit:fill}
+ .hero .hero-copy{position:absolute;left:8.30078125%;top:33.41346154%;width:54.6875%;max-width:none;gap:24px}
+ .hero .intro-group,.hero .description-group{gap:12px}
+ .hero .availability{font:400 16px/22px Inter,sans-serif;letter-spacing:-.18px}
+ .hero h1{font:500 clamp(26px,3.515625vw,36px)/1.222222 Inter,sans-serif;letter-spacing:-.25px}
+ .hero .role p{font:400 clamp(16px,2.1484375vw,22px)/30px Schoolbell,cursive;white-space:nowrap}
+ .hero .company{height:36.052px;flex-shrink:0}
+ .hero .description{font:500 16px/22px Inter,sans-serif;letter-spacing:-.18px}
+ .hero .button{font:500 16px/22px Inter,sans-serif;letter-spacing:-.18px;padding:13px}
+}

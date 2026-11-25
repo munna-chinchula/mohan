@@ -1,0 +1,6 @@
+.works-laptop .wl0{background-color:white;align-content:stretch;display:flex;flex-direction:column;align-items:center;padding-left:100px;padding-right:100px;padding-top:50px;padding-bottom:50px;position:relative;width:100%;height:100%}
+.works-laptop .wl1{align-content:stretch;display:flex;flex-direction:column;gap:60px;align-items:center;justify-content:center;position:relative;flex-shrink:0;width:100%}
+.works-laptop .wl2{align-content:stretch;display:flex;align-items:center;justify-content:center;padding:10px;position:relative;flex-shrink:0}
+.works-laptop .wl3{display:flex;flex-direction:column;font-family:"Schoolbell";font-weight:400;font-style:normal;justify-content:center;line-height:0;position:relative;flex-shrink:0;color:#0f1115;font-size:40px;text-align:center;letter-spacing:0px;white-space:nowrap}
+.works-laptop .wl4{line-height:40px}
+.works-laptop .wl5{align-content:stretch;display:flex;flex-direction:column;gap:40px;align-items:center;justify-content:center;overflow:clip;position:relative;flex-shrink:0;width:100%}

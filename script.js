@@ -32,3 +32,7 @@ document.querySelectorAll('.figma-canvas div').forEach(el => {
   el.addEventListener('click',activate);
   el.addEventListener('keydown',e => {if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}});
 });
+
+import './sections/hero/navigation.js';
+
+import './sections/selected-works/responsive.js';

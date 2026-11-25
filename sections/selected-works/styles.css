@@ -1,13 +1,14 @@
-@media(max-width:760px){.section-work .figma-canvas [data-node-id="213:8031"]{font-size:90px}
-}
-@media(max-width:760px){.section-work .figma-canvas [data-node-id="213:8031"] p{line-height:100px}
-}
-.section-works .figma-canvas [data-node-id="213:8030"]{display:flex;align-items:center;justify-content:center;height:60px}
-.section-works .figma-canvas [data-node-id="213:8031"]{position:relative;left:auto;top:auto;--ty:0px;text-align:center}
-.figma-canvas .d0{background-color:white;align-content:stretch;display:flex;flex-direction:column;align-items:center;padding-left:100px;padding-right:100px;padding-top:50px;padding-bottom:50px;position:relative;width:100%;height:100%}
-.figma-canvas .d1{align-content:stretch;display:flex;flex-direction:column;gap:60px;align-items:center;justify-content:center;position:relative;flex-shrink:0;width:100%}
-.figma-canvas .d2{align-content:stretch;display:flex;align-items:center;justify-content:space-between;position:relative;flex-shrink:0;width:100%}
-.figma-canvas .d3{flex:1 0 0;height:43.21px;min-width:1px;position:relative}
-.figma-canvas .d4{--ty:-50%;position:absolute;display:flex;flex-direction:column;font-family:"Schoolbell";font-weight:400;font-style:normal;justify-content:center;line-height:0;left:0;color:#111;font-size:33px;top:21.4px;letter-spacing:0px;white-space:nowrap}
-.figma-canvas .d5{line-height:40px}
-.figma-canvas .d6{align-content:stretch;display:flex;flex-direction:column;gap:40px;align-items:center;justify-content:center;overflow:clip;position:relative;flex-shrink:0;width:100%}
+.section-works{height:auto;width:100%;overflow:hidden;scroll-margin-top:24px}
+.works-layout{display:none}
+.works-laptop{display:block}
+.works-canvas{width:var(--works-width);zoom:var(--works-scale,1);font-weight:400;font-size:16px;line-height:normal}
+.works-canvas *{box-sizing:border-box;--tx:0px;--ty:0px;border-width:0;transform:translate(var(--tx),var(--ty))}
+.works-canvas>div{height:auto!important}
+.works-canvas p{margin:0}
+.works-canvas img{display:block}
+.works-canvas a,.works-canvas button{cursor:pointer;text-decoration:none;border-style:solid;border-radius:0}
+.works-canvas a:hover,.works-canvas button:hover{filter:brightness(.94)}
+.works-canvas a:focus-visible,.works-canvas button:focus-visible{outline:3px solid #111;outline-offset:4px}
+.mobile-work-project{position:relative;width:100%;flex-shrink:0}
+@media(min-width:601px) and (max-width:1100px){.works-laptop{display:none}.works-tablet{display:block}}
+@media(max-width:600px){.works-laptop{display:none}.works-mobile{display:block}}

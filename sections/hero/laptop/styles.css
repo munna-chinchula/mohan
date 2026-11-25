@@ -1,0 +1,7 @@
+@media(min-width:1600px){h1{font-size:2.29167vw;line-height:1.21212}
+}
+@media(min-width:1600px){.role p{font-size:1.66667vw;line-height:1.2}
+}
+@media(min-width:1600px){.hero-copy{max-width:none}
+}
+@media(min-width:1101px){.hero-copy{gap:2.22222vw}.hero .intro-group{gap:1.11111vw}.hero .description-group{gap:.833333vw}.hero .description,.hero .availability,.hero .button{font-size:1.11111vw;line-height:1.66667vw}.hero .availability{padding:.277778vw .555556vw;border-radius:1.11111vw;gap:.277778vw}.hero .availability span{width:.694444vw;height:.694444vw}.hero .company{height:2.50361vw;padding:.270278vw;border-radius:.383472vw}.hero .company img{width:1.90882vw;height:1.04653vw}.hero .role{gap:.555556vw}.hero .button{padding:.902778vw;border-radius:.277778vw}.hero .actions{gap:.833333vw}.hero .button img{width:1.38889vw;height:1.38889vw}}

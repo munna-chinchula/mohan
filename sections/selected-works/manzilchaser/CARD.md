@@ -1,5 +1,3 @@
-# ManzilChaser
+# Edit manzilchaser cards
 
-card.html contains this project's homepage card. card.css styles it. assets/ contains its card images. Image paths in card.html are relative to the portfolio homepage.
-
-The full case study is in this folder too. Each chapter has its own folder inside sections/. Read EDITING.md for the complete workflow.
+Choose `laptop/`, `tablet/`, or `mobile/`. Each folder contains `card.html` for editable text/buttons and `card.css` for its styling. Shared artwork is in `assets/`. The ManzilChaser full case study remains in its separate `sections/` folders.

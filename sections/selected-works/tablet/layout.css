@@ -1,0 +1,6 @@
+.works-tablet .wt0{background-color:white;align-content:stretch;display:flex;flex-direction:column;align-items:center;padding-left:40px;padding-right:40px;padding-top:50px;padding-bottom:50px;position:relative;width:100%;height:100%}
+.works-tablet .wt1{align-content:stretch;display:flex;flex-direction:column;gap:32px;align-items:center;justify-content:center;position:relative;flex-shrink:0;width:100%}
+.works-tablet .wt2{align-content:stretch;display:flex;align-items:center;justify-content:center;position:relative;flex-shrink:0}
+.works-tablet .wt3{display:flex;flex-direction:column;font-family:"Schoolbell";font-weight:400;justify-content:center;line-height:0;font-style:normal;position:relative;flex-shrink:0;color:#0f1115;font-size:40px;text-align:center;letter-spacing:-0.25px;white-space:nowrap}
+.works-tablet .wt4{line-height:44px}
+.works-tablet .wt5{align-content:stretch;display:flex;flex-direction:column;gap:40px;align-items:center;justify-content:center;overflow:clip;position:relative;flex-shrink:0;width:100%}

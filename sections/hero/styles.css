@@ -1,8 +1,12 @@
+.hero-menu-toggle{display:none}
 .navigation{position:absolute;top:0;left:0;width:100%;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:0 40px;min-height:46px}
 .brand{padding:10px 0;font-size:19.2px;line-height:26px;letter-spacing:.4px}
 .navigation nav{display:flex;gap:16px}
 .navigation nav a{padding:10px;font-size:14.6px;line-height:18px;letter-spacing:1px}
 .hero{position:relative;min-height:100svh;overflow:hidden}
+.bouquet-hero{display:block;position:absolute;right:0;top:12svh;width:49%;height:80svh;pointer-events:none;contain:layout paint}
+.bouquet-hero canvas{width:100%;height:100%;display:block;object-fit:contain}
+@media(max-width:760px){.hero .bouquet-hero{position:relative;right:auto;top:auto;width:100%;height:auto;aspect-ratio:960/900;align-self:center}}
 .hero-copy{position:absolute;left:6.94444%;top:33.88889%;width:38.88889%;max-width:680px;z-index:1;display:flex;flex-direction:column;gap:32px}
 .intro-group{display:flex;flex-direction:column;align-items:flex-start;gap:16px}
 .availability{display:inline-flex;align-items:center;gap:4px;padding:4px 8px;border:1px solid var(--border);border-radius:16px;color:var(--text-muted);font-size:var(--body-size);line-height:var(--body-leading);font-weight:400}
@@ -14,13 +18,10 @@ h1{margin:0;font-family:var(--font-heading);font-weight:500;font-size:33px;line-
 .company{display:flex;align-items:center;justify-content:center;height:36.052px;padding:3.892px;border:.389px solid rgba(0,0,0,.12);border-radius:5.522px;box-shadow:-1.384px 2.768px 6.227px rgba(0,0,0,.08)}
 .description{margin:0;color:var(--text-secondary);font-size:var(--body-size);line-height:var(--body-leading)}
 .actions{display:flex;gap:12px}
-.hero-art{position:absolute;left:35.13889%;top:23%;width:62.91271%;height:auto;pointer-events:none}
-@media(min-width:1600px){h1{font-size:2.29167vw;line-height:1.21212}
-}
-@media(min-width:1600px){.role p{font-size:1.66667vw;line-height:1.2}
-}
-@media(min-width:1600px){.hero-copy{max-width:none}
-}
+
+
+
+
 @media(max-width:1100px) and (min-width:761px){.role p{font-size:clamp(15px,1.66667vw,24px)}
 }
 @media(max-width:1100px) and (min-width:761px){h1{font-size:29px}
@@ -29,7 +30,7 @@ h1{margin:0;font-family:var(--font-heading);font-weight:500;font-size:33px;line-
 }
 @media(max-width:1100px) and (min-width:761px){.description{font-size:14px;line-height:21px}
 }
-@media(max-width:1100px) and (min-width:761px){.hero-art{left:40%;width:60%;top:27%}
+@media(max-width:1100px) and (min-width:761px){
 }
 @media(max-width:760px){.navigation{padding:10px 20px;align-items:flex-start}
 }
@@ -43,7 +44,7 @@ h1{margin:0;font-family:var(--font-heading);font-weight:500;font-size:33px;line-
 }
 @media(max-width:760px){.hero-copy{position:relative;left:auto;top:auto;width:100%;max-width:560px;gap:24px}
 }
-@media(max-width:760px){.hero-art{position:relative;left:auto;top:auto;align-self:center;width:min(125%,650px);max-width:none;height:auto;margin-left:-6%}
+@media(max-width:760px){
 }
 @media(max-width:760px){.role p{white-space:normal;font-size:21px;line-height:1.25}
 }
@@ -53,5 +54,13 @@ h1{margin:0;font-family:var(--font-heading);font-weight:500;font-size:33px;line-
 }
 @media(max-width:760px){.description{font-size:16px;line-height:24px}
 }
-@media(min-width:761px){.hero-art{left:auto;right:1.9484%;top:23svh;width:min(62.91271vw,100.6603svh);height:auto;max-height:63svh;object-fit:contain;object-position:right center}
+@media(min-width:761px){
 }
+
+/* Hero artwork from Figma 263:8236. The image includes the original whitespace. */
+.hero-art{position:absolute;right:7.43056%;top:10.11111svh;width:min(83.33333vw,133.33333svh);height:auto;pointer-events:none;z-index:0}
+.hero .primary{border-color:#111}
+
+@media(max-width:760px){.hero-art{position:relative;top:auto;right:auto;width:100%;height:auto;aspect-ratio:400/660;object-fit:cover;object-position:right center;align-self:center}.hero{justify-content:flex-start;gap:16px}.hero-copy{z-index:1}}
+@media(min-width:761px){.hero-art{width:min(83.33333%,133.33333svh)}}
+@media(max-width:760px){.hero-art{object-position:88% center}}
